@@ -78,6 +78,11 @@ button { font: inherit; }
 .about-copy { margin-left: 30%; max-width: 790px; }
 .about-copy p { color: var(--muted); }
 .about-copy .large-copy { margin-top: 0; color: var(--text); font-size: clamp(1.65rem, 3.2vw, 2.75rem); line-height: 1.35; font-weight: 650; letter-spacing: -.03em; }
+.education-timeline { margin: 3.5rem 0 0 30%; padding: 0; max-width: 790px; list-style: none; border-top: 1px solid var(--line); }
+.education-timeline li { padding: 1.3rem 0; display: grid; grid-template-columns: 5rem 1fr; gap: 1.5rem; border-bottom: 1px solid var(--line); }
+.education-timeline > li > span { color: var(--accent); font: 700 .78rem/1.7 ui-monospace, monospace; letter-spacing: .08em; }
+.education-timeline strong { font-size: 1.05rem; }
+.education-timeline p { margin: .25rem 0 0; color: var(--muted); }
 .principles { margin-top: 3.5rem; display: grid; grid-template-columns: repeat(4, 1fr); border-block: 1px solid var(--line); }
 .principles span { padding: 1.4rem .8rem; text-align: center; color: #375267; border-right: 1px solid var(--line); font-size: .92rem; }
 .principles span:last-child { border: 0; }
@@ -118,6 +123,12 @@ button { font: inherit; }
 .life-number { display: block; color: transparent; -webkit-text-stroke: 1px var(--accent-2); font-size: 5rem; font-weight: 850; line-height: 1; }
 .life-grid h3 { margin: 3.2rem 0 .7rem; font-size: 1.6rem; }
 .life-grid p { max-width: 480px; margin: 0; color: var(--muted); }
+.football-record { margin-top: 1rem; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1px solid var(--line); background: var(--bg-soft); }
+.football-record article { min-width: 0; padding: clamp(1.4rem, 3vw, 2rem); border-right: 1px solid var(--line); }
+.football-record article:last-child { border-right: 0; }
+.football-record span { color: var(--accent); font: 700 .7rem/1.3 ui-monospace, monospace; letter-spacing: .1em; }
+.football-record h3 { margin: 3.2rem 0 .7rem; font-size: clamp(1.15rem, 2vw, 1.5rem); line-height: 1.25; }
+.football-record p { margin: 0; color: var(--muted); }
 
 .contact-board { display: grid; grid-template-columns: .8fr .7fr 1.5fr; border: 1px solid var(--line); background: linear-gradient(135deg, #fff, #eef6fb); font-style: normal; }
 .contact-board > * { min-width: 0; padding: clamp(1.3rem, 3vw, 2rem); display: flex; flex-direction: column; gap: .45rem; border-right: 1px solid var(--line); }
@@ -143,8 +154,11 @@ button { font: inherit; }
   .hero { min-height: auto; grid-template-columns: 1fr; }
   .profile-panel { max-width: 520px; }
   .section-heading { grid-template-columns: 1fr; gap: .6rem; }
-  .about-copy { margin-left: 0; }
+  .about-copy, .education-timeline { margin-left: 0; }
   .project-grid, .now-board { grid-template-columns: 1fr; }
+  .football-record { grid-template-columns: 1fr; }
+  .football-record article { border-right: 0; border-bottom: 1px solid var(--line); }
+  .football-record article:last-child { border-bottom: 0; }
   .contact-board { grid-template-columns: 1fr; }
   .contact-board > * { border-right: 0; border-bottom: 1px solid var(--line); }
   .contact-board > *:last-child { border-bottom: 0; }
@@ -158,6 +172,7 @@ button { font: inherit; }
   .principles { grid-template-columns: repeat(2, 1fr); }
   .principles span:nth-child(2) { border-right: 0; }
   .principles span:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .education-timeline li { grid-template-columns: 1fr; gap: .35rem; }
   .life-grid { grid-template-columns: 1fr; }
   .award-card { grid-template-columns: 1fr; gap: .8rem; }
   .result-grid { grid-template-columns: 1fr; }
