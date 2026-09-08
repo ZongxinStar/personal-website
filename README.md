@@ -1,17 +1,18 @@
-# 尹宗鑫的个人网站
+# Personal Portfolio
 
-这是尹宗鑫的个人主页，用于记录学习、项目、足球与成长经历。
+A personal website for documenting study, projects, sport, and ongoing growth.
 
-## 本地打开
+## Local preview
 
-直接打开 `dist/index.html`，或使用任意静态服务器托管 `dist` 目录。
+Open `dist/index.html` directly, or serve the `dist` directory with any static server.
 
-## 网站内容
+## Contents
 
-- 个人介绍
-- 项目经历
-- 奖项与荣誉
-- 当前学习方向
-- 足球与阅读
+- About
+- Selected projects
+- Awards and recognition
+- Current academic focus
+- Football and reading
+- Contact information
 
-网站会持续更新。
+The site will continue to evolve over time.
