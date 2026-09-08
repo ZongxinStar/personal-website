@@ -13,5 +13,6 @@ Open `dist/index.html` directly, or serve the `dist` directory with any static s
 - Awards and recognition
 - Current academic focus
 - Football and reading
+- Contact information
 
 The site will continue to evolve over time.
