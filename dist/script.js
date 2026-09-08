@@ -22,7 +22,7 @@ const sectionObserver = new IntersectionObserver((entries) => {
 }, { rootMargin: '-35% 0px -55% 0px' });
 sections.forEach((section) => sectionObserver.observe(section));
 
-const revealItems = document.querySelectorAll('.project-card, .about-copy, .principles, .award-card, .now-board, .life-grid article, .contact-board');
+const revealItems = document.querySelectorAll('.project-card, .about-copy, .education-timeline, .principles, .award-card, .now-board, .life-grid article, .football-record article, .contact-board');
 revealItems.forEach((item) => item.classList.add('reveal'));
 const revealObserver = new IntersectionObserver((entries, observer) => {
   entries.forEach((entry) => {
